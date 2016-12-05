@@ -1,0 +1,16 @@
+{
+  "name": "wearejh/m2-core-bug-debug-log-switch",
+  "description": "Debug Log Switch Module.",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Jh\\DebugLogSwitch\\": ""
+    }
+  }
+}
